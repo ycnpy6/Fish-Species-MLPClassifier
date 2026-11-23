@@ -1,0 +1,8 @@
+step,rows_before,rows_after,reason
+load_and_merge,12288,12288,fish table joined to stream table on Code_ID
+fix_labels,12288,12288,stripped spaces in species and Location
+duplicates,12288,12288,883 exact duplicates kept: they are different fish
+impossible_values,12288,12288,removed length or mass <= 0
+missing_values,12288,12288,dropped rows with missing values
+outliers,12288,12288,IQR outliers kept: real large fish
+species_selection,12288,9712,kept the 6 most abundant species

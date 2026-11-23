@@ -1,0 +1,24 @@
+Variable name	Description	Units	Variable type	Excel Spreedsheet
+Code_ID	Unique number identifying a stream location	Unitless	Categorical	"1_stream_information; 2_fish_information"
+Stream	Name of the stream	Unitless	String	"1_stream_information; 2_fish_information"
+Location	Name of the location	Unitless	String	"1_stream_information; 2_fish_information"
+Lat_degree	Latitudinal coordinates in WGS 84	Degree	Numeric	1_stream_information
+Long_degree	Longitudinal coordinates in WGS 84	Unitless	Numeric	1_stream_information
+Source	Source of the public administration where the fish data was obtained. CHE: Confederación Hidrográfica del Ebro. ACA: Agència Catalana de l'Aigua	Unitless	String	1_stream_information
+Day	Day of the fish sampling	Day	Numeric	1_stream_information
+Month	Month of the fish sampling	Month	Numeric	1_stream_information
+Year	Year of the fish sampling	Year	Numeric	1_stream_information
+Fish_number	Total number of fish caught in each stream location	Individuals	Numeric	1_stream_information
+SA_m2	Sampling area	m2	Numeric	1_stream_information
+TP_mg.l	Mean annual concentration of total phosphates	mg.l-1	Numeric	1_stream_information
+TN_mg.l	Mean annual concentration of total nitrates	mg.l-1	Numeric	1_stream_information
+Temp_degree_celcius	Mean annual air temperature	Degree celsius	Numeric	1_stream_information
+Prec_mm	Mean annual precipitation	mm	Numeric	1_stream_information
+Alt_m	Altitude	m above sea level	Numeric	1_stream_information
+IMPRESS	Cumulative pressures	Unitless	Numeric	1_stream_information
+Family	Family latin name	Unitless	String	2_fish_information
+Genus	Genus latin name	Unitless	String	2_fish_information
+Species	Species latin name	Unitless	String	2_fish_information
+Scientific_name	Full scientific name of the fish species	Unitless	String	2_fish_information
+Length_mm	Individual body length	mm	Numeric	2_fish_information
+Mass_g	Individual body mass	g	Numeric	2_fish_information
